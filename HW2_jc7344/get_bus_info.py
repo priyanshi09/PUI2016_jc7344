@@ -19,8 +19,6 @@ print ('Latitude, Longitude, Stop Name, Stop Status')
 for i in location :
     latitude = i['MonitoredVehicleJourney']['VehicleLocation']['Latitude']
     longitude = i['MonitoredVehicleJourney']['VehicleLocation']['Longitude']
-    stopname = i['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['StopPointName']
-    status = i['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall'][0]['Extensions']['Distances']['PresentableDistance']
     onwardcall = i['MonitoredVehicleJourney']['OnwardCalls']
 
     if len(onwardcall) is 0:
