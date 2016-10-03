@@ -1,5 +1,5 @@
 ##Homework 4 
-###Assignment 1
+###Assignment 2
 
 For this assignment I worked closely with Nonie Mathur. We analyzed two different papers from PlosOne.org. The first document used a Chi Square analysis to compare the frequencies of different types of neglect syndrome. The second document found a correlation between different kinds of molecular cancer by transcriptional and/or pathway profiles.
 
